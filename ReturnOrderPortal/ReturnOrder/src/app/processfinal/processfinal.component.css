@@ -1,0 +1,39 @@
+body {
+    font-family: "Karla", sans-serif;
+    overflow-x: hidden;
+    color: rgb(0, 0, 0);
+      height: 100%;
+      background: linear-gradient(to right,rgb(212, 128, 212) ,rgb(212, 164, 61));
+      background-repeat: no-repeat 
+
+}
+.center
+{
+    display: flex;
+    justify-content: center;
+    color: rgb(27, 122, 230);
+}
+.detail
+{
+    padding: 30px 20px 50px 600px;
+}
+.dt
+{
+    color: rgb(48, 33, 117);
+}
+.diu
+{
+    color: rgb(119, 77, 48);
+}
+.butt
+{
+    width: 250PX; 
+    height: 40px; 
+    border-radius: 12px; 
+    color: white;
+}
+h4{
+    font-size: 150%;
+    padding-bottom: 2%;
+}
+

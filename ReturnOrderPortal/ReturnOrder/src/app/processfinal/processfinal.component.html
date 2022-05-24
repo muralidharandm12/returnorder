@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>RegistrationForm</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Karla:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.8.95/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	</head>
+
+	<body>
+        <div style="padding-top: 8%;">
+            <h1 class="center" style="padding-top: 50px; font-size: 350%; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;" >Process Final Changes</h1><br>
+        
+        
+        <H2 class="center" style="font-size: 200%; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Here are the values</H2>
+    <div class = "detail" style="padding-top: 2%;">
+    <h4><b><span class="dt"> Request Id : </span></b><span class="diu"> {{processResponse.requestId}} </span></h4>
+    <h4><b><span class="dt"> Processing Charge :  </span></b><span class="diu"> {{processResponse.processingCharge}} </span></h4>
+    <h4><b><span class="dt"> Packaging And Delivery Charge : </span></b> <span class="diu"> {{processResponse.packagingAndDeliveryCharge}}  </span></h4>
+    <h4><b><span class="dt"> Date Of Delivery :  </span></b><span class="diu">  {{processResponse.dateOfDelivery | date:'longDate'}} </span></h4>
+    </div>
+    <button type="submit" class="butt" style="background-color: rgb(226, 15, 15); margin-left: 35%;" (click)="OnProcess()">Process</button>
+    <button type="submit" class="butt" style="background-color: rgb(15, 226, 61); margin-left: 2%;">Not Interested</button>
+</div>
+    <main class="d-flex align-items-center min-vh-100 py-3 py-md-0">
+</main>
+</body>
+
+</html>
